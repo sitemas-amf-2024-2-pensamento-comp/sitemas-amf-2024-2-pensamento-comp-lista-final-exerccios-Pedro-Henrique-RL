@@ -1,0 +1,9 @@
+idade = 20
+sexo = "Masculino"
+
+if idade < 18:
+    print("Menor de idade")
+elif sexo == "Feminino" and idade >= 60:
+    print("Idosa")
+else:
+    print("Adulto ou idoso masculino")
