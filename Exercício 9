@@ -1,0 +1,8 @@
+def calcular_elegibilidade(renda, credito, despesas):
+    renda_liquida = renda - despesas
+    if credito >= 700 and renda_liquida > 1000:
+        return "Elegível"
+    else:
+        return "Não elegível"
+
+print(calcular_elegibilidade(5000, 750, 2000))
