@@ -1,0 +1,5 @@
+A, B, C = True, False, True
+
+print(A or (B and C))
+print(not A and B and C)
+print(not (A and B and not C))
