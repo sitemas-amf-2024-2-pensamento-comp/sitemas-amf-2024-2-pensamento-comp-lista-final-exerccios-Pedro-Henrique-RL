@@ -1,0 +1,9 @@
+inteiro = 10
+decimal = 10.5
+texto = "Olá, Mundo!"
+booleano = True
+
+print(type(inteiro), inteiro)
+print(type(decimal), decimal)
+print(type(texto), texto)
+print(type(booleano), booleano)
