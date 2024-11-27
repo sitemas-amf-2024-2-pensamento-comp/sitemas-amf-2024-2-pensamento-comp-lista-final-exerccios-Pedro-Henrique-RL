@@ -1,0 +1,9 @@
+def verificar_idade_sexo(idade, sexo):
+    if idade < 18:
+        return "Menor de idade"
+    elif idade < 60:
+        return "Adulto"
+    else:
+        return "Idoso"
+
+print(verificar_idade_sexo(25, "Masculino"))
