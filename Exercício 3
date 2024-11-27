@@ -1,0 +1,10 @@
+a, b, c = 5, 10, 15
+
+print(a < b)       # Menor que
+print(a == 5)      # Igualdade
+print(b >= c)      # Maior ou igual
+print(a != c)      # Diferente
+print(b <= c)      # Menor ou igual
+print(not a > b)   # NOT
+print(a < b and b < c)  # AND
+print(a > b or b < c)   # OR
