@@ -1,0 +1,5 @@
+chovendo = True
+sol = False
+avaliacao = True
+
+print(chovendo or sol and avaliacao)
