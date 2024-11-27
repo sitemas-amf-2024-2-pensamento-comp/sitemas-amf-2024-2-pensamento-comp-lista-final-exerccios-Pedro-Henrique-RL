@@ -1,0 +1,10 @@
+def verificar_paridade(numero):
+    return "Par" if numero % 2 == 0 else "Ímpar"
+
+print(verificar_paridade(10))
+print(verificar_paridade(15))
+
+def lista_impares():
+    return [i for i in range(1, 101) if i % 2 != 0]
+
+print(lista_impares())
